@@ -38,7 +38,7 @@ Product.init(
     category_id: {
       type: DataTypes.INTEGER,
       references: {
-        model: Category,
+        model: 'category',
         key: 'id',
       },
     },
@@ -52,9 +52,5 @@ Product.init(
   }
 );
 
-Category.hasMany(Product, {
-  foreignKey: 'category_id'
-});
-Product.belongsTo(Category);
 
 module.exports = Product;
