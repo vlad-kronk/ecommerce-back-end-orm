@@ -61,6 +61,10 @@ All routes below go through `/api/`.
     tagIds: [1, 2, 3, 4]
 }`
 
+-   Example response for a call to `/api/products/1`:
+
+    ![Example response for a GET request to /api/products/1](./assets/images/product.png)
+
 `/categories`
 
 -   `/`
@@ -82,6 +86,10 @@ All routes below go through `/api/`.
   "category_name": "Socks"
 }`
 
+-   Example response for a call to `/api/categories/2`:
+
+    ![Example response for a GET request to /api/categories/2](./assets/images/category.png)
+
 `/tags`
 
 -   `/`
@@ -102,6 +110,10 @@ All routes below go through `/api/`.
     `{
   "tag_name": "yellow"
 }`
+
+-   Example response for a call to `/api/tags/3`:
+
+    ![Example response for a GET request to /api/tags/3](./assets/images/tag.png)
 
 ## Walkthrough
 
